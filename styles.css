@@ -1,0 +1,242 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: 'CustomFont';
+    src:url('assets/fonts/HankenGrotesk-VariableFont_wght.ttf') format('woff2');
+    font-weight: normal; /* Specify font weight (optional) */
+    font-style: normal;  /* Specify font style (optional) */
+}
+
+@font-face {
+    font-family: 'CustomFont1';
+    src:url('assets/fonts/static/HankenGrotesk-ExtraBold.ttf') format('woff2');
+    font-weight: normal; /* Specify font weight (optional) */
+    font-style: normal;  /* Specify font style (optional) */
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+
+#outer{
+    width: 50%;
+    height: 70%;
+    background-color:hsl(0, 0%, 100%);
+    border-radius: 20px;
+    display: flex;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
+}
+
+#inner{
+    width: 50%;
+    height: 100%;
+    background: linear-gradient(180deg, hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.div1{
+    height: 15%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'CustomFont';
+}
+
+.div2{
+    height: 50%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.div3{
+    height: 10%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.div4{
+    height: 25%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.result{
+    color: hsl(0, 0%, 100%);
+    font-size: 18px;
+    opacity: 0.7;
+}
+
+.marks{
+    border-radius: 50%;
+    background: linear-gradient(180deg,  hsla(256, 72%, 46%, 1),hsla(241, 72%, 46%, 0));
+    width: 200px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: hsl(0, 0%, 100%);
+    font-family: 'CustomFont';
+}
+
+.m76{
+    font-weight: 900;
+    font-size: 60px;
+    font-family: 'CustomFont1';
+}
+
+.m100{
+    font-size: 14px;
+    opacity: 0.5;
+}
+
+.grt{
+    font-size: 25px;
+    color: hsl(0, 0%, 100%);
+    font-family: 'CustomFont1';
+}
+
+.message{
+    width: 70%;
+    height: 80%;
+    overflow-wrap: break-word;
+    color: hsl(0, 0%, 100%);
+    font-family: 'CustomFont';
+    font-size: 18px;
+    opacity: 0.7;
+    text-align: center;
+}
+
+.inner2{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+.sum{
+    height: 10%;
+    width: 100%;
+    font-family: 'CustomFont1';
+    color: hsl(224, 30%, 27%);
+    font-size: 20px;
+    padding-top: 20px;
+    padding-left: 25px;
+}
+
+.cards{
+    height:70%;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+}
+
+.cont{
+    width: 100%;
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Card{
+    width: 80%;
+    height: 20%;
+    border-radius: 10px;
+    display: flex;
+    font-size: 18px;
+    font-family: 'CustomFont1';
+}
+
+.card1{
+    background-color: hsl(0, 100%, 67%,0.15);
+    color:  hsl(0, 100%, 67%);
+}
+
+.card2{
+    background-color: hsla(39, 100%, 56%,0.15);
+    color:  hsl(39, 100%, 56%);
+}
+
+.card3{
+    background-color: hsla(166, 100%, 37%,0.15);
+    color: hsl(166, 100%, 37%);
+}
+
+.card4{
+    background-color: hsla(234, 85%, 45%,0.15);
+    color: hsl(234, 85%, 45%);
+}
+
+.part1{
+    height: 100%;
+    width: 12%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.part2{
+    height: 100%;
+    width: 60%;
+    padding-top: 18px;
+}
+
+.part3{
+    height: 100%;
+    width: 13%;
+    padding-top: 18px;
+    color: hsl(224, 30%, 27%);
+}
+
+.part4{
+    height: 100%;
+    width: 15%;
+    padding-top: 18px;
+    color: hsl(224, 30%, 27%);
+    opacity: 0.4;
+}
+
+.img1{
+    height: 20px;
+    width: 20px;
+    opacity: 1;
+}
+
+.butt{
+    width:80%;
+    height:60%;
+    background-color: hsl(224, 30%, 27%);
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text{
+    color: hsl(0, 0%, 100%);
+    font-family: 'CustomFont';
+    font-size: 18px;
+}
+.cont button:hover {
+    background-color: #444;
+}
+  
